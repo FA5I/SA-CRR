@@ -1,0 +1,56 @@
+{
+  "name": "Derivatives Data",
+  "date": "2017-01-17T00:00:00Z",
+  "data": [
+    {
+      "id": "swap_1",
+      "date": "2017-01-17T00:00:00Z",
+      "asset_class": "ir",
+      "currency_code": "USD",
+      "end_date": "2027-01-17T00:00:00Z",
+      "mtm_dirty": 30000,
+      "notional_amount": 10000,
+      "payment_type": "fixed",
+      "receive_type": "floating",
+      "start_date": "2017-01-10T00:00:00Z",
+      "type": "vanilla_swap",
+      "trade_date": "2017-01-10T00:00:00Z",
+      "value_date": "2017-01-16T00:00:00Z"
+    },
+    {
+      "id": "swap_2",
+      "date": "2017-01-17T00:00:00Z",
+      "asset_class": "ir",
+      "currency_code": "USD",
+      "end_date": "2021-01-17T00:00:00Z",
+      "mtm_dirty": -20000,
+      "notional_amount": 10000,
+      "payment_type": "floating",
+      "receive_type": "fixed",
+      "start_date": "2017-01-10T00:00:00Z",
+      "type": "vanilla_swap",
+      "trade_date": "2017-01-10T00:00:00Z",
+      "value_date": "2017-01-16T00:00:00Z"
+    },
+    {
+      "id": "swaption1",
+      "date": "2017-01-17T00:00:00Z",
+      "asset_class": "ir",
+      "currency_code": "EUR",
+      "end_date": "2028-01-17T00:00:00Z",
+      "mtm_dirty": 50000,
+      "notional_amount": 5000,
+      "payment_type": "floating",
+      "receive_type": "fixed",
+      "start_date": "2018-01-17T00:00:00Z",
+      "type": "swaption",
+      "strike": 0.05,
+      "underlying_price": 0.06,
+      "leg_type": "put",
+      "last_exercise_date": "2018-01-17T00:00:00Z",
+      "trade_date": "2017-01-10T00:00:00Z",
+      "value_date": "2017-01-16T00:00:00Z"
+    }
+
+  ]
+}
